@@ -1,0 +1,45 @@
+*{
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    background: linear-gradient(red,blue,yellow,green);
+}
+h1{
+    background-color: darkgray;
+    color:aliceblue;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    background-color: darkgray;
+    color:aliceblue;
+    font-size: 20px;
+}
+
+#p1{
+    background-color: darkgray;
+    color:rgb(180, 89, 190);
+    font-size: 20px;
+}
+
+#p1:hover{
+    background-color: rgb(17, 17, 17);
+    color:rgb(46, 210, 225);
+    font-size: 20px;
+}
+.p2{
+    background-color: darkgray;
+    color:rgb(229, 61, 81);
+    font-size: 20px;
+}
+
+img{
+    width:600px;
+    height:600px;
+}
+
+img[alt]{
+    color:burlywood;
+}
