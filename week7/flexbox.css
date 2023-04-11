@@ -1,0 +1,41 @@
+*{
+    height:100%
+}
+.flex{
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border:4px solid black
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: rgb(17, 241, 114);
+}
+
+.box3{
+    background-color: rgb(29, 76, 215);
+}
+
+.box4{
+    background-color: rgb(241, 7, 136);
+}
+
+.box5{
+    background-color: rgb(238, 10, 10);
+}
+
+.box6{
+    background-color: rgb(174, 238, 10);
+}
