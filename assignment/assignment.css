@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+}
+
+h1{
+    padding-left: 15px;
+    padding-right: 100px;
+    color:rgb(243, 245, 247);
+    font-size: 50px;
+    text-transform:uppercase;
+    margin-left: 70px ;
+}
+
+h4{
+    margin-left: 55px;
+    padding-left: 15px;
+    padding:30px;
+    color:rgb(243, 245, 247);
+    font-size: 20px;
+    text-transform:uppercase;
+}
+p{
+    margin-top: 40px;
+    margin-left:70px;
+    padding-left: 15px;
+    color:aliceblue;
+    font-size: 15px;
+    padding:10px
+}
+.parent{
+    /* background-color: rgb(3, 97, 27); */
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height:78%;
+    /* border-radius:50px; */
+}
+.son{
+    height:100%;
+    background-color: rgb(7, 49, 17);
+    height:100%;
+    width:50%;
+    float:left;
+    padding-top: 10%;
+    
+}
+.daughter{
+    width:50%;
+    float:right;
+    /* border-radius:20px; */
+}
+
+button{
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: capitalize bold;
+    background-color: rgb(245, 172, 3);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+img{
+    width:100%;
+    height: 710px;
+    display: flex;
+}
