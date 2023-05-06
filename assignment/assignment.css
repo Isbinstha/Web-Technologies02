@@ -33,12 +33,12 @@ p{
     padding:10px
 }
 .parent{
-    /* background-color: rgb(3, 97, 27); */
+    
     display: flex;
     flex-wrap: wrap;
     width:100%;
     height:78%;
-    /* border-radius:50px; */
+    
 }
 .son{
     height:100%;
@@ -52,7 +52,7 @@ p{
 .daughter{
     width:50%;
     float:right;
-    /* border-radius:20px; */
+    
 }
 
 button{
